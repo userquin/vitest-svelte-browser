@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "test": "vitest",
     "coverage": "vitest run --coverage",
-    "test:stackblitz": "BROWSER_PROVIDER=none vitest"
+    "test:stackblitz": "BROWSER_PROVIDER=stackblitz vitest"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^2.4.2",
